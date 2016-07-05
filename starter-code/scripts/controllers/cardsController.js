@@ -1,8 +1,9 @@
 angular.module('CardsAgainstAssembly')
   .controller('cardsController', cardsController);
 
+
 function cardsController(){
-  var vm = this;
+    var vm = this;
   vm.questionsList = [
     {question: "What is Batman's guilty pleasure?"},
     {question: "I'm sorry professor, I couldn't complete my homework because _________."},
@@ -11,4 +12,5 @@ function cardsController(){
     {question: "The class field trip was completely ruined by _________."},
     {question: "What's my secret power?"}
   ]
+  // return vm;
 }
