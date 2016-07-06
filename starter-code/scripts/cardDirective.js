@@ -5,7 +5,10 @@ angular.module('CardsAgainstAssembly', [])
   var directive =  {
     restrict: 'E',
     replace: true,
-    templateUrl: "templates/_cardDirective.html"
+    templateUrl: "templates/_cardDirective.html",
+    scope: {
+        question: '@'
+    }
   };
   return directive
 };
